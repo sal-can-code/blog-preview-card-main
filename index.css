@@ -87,6 +87,37 @@ body {
 }
 
 
+.card:hover,
+.card:focus-within {
+  box-shadow: 14px 14px #000000;
+  transform: translateY(-4px);
+  transition: all 0.2s ease-in-out;
+}
+
+
+.article-title:hover,
+.article-title:focus {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+
+.tag:hover,
+.tag:focus {
+  background-color: hsl(47, 88%, 53%);
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+.writer:hover,
+.writer:focus {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
 @media (max-width: 375px) {
   body {
     padding: 12px;
